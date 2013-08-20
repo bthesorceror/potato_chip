@@ -7,7 +7,7 @@ function PotatoChip(url) {
 PotatoChip.prototype.updateDesign = function(doc, name, cb) {
   var fullname = "_design/" + name;
   this.db.get(fullname, function(err, body) {
-    if (err) return cb(err);
+    if (err && err.status_code != 404) return cb(err);
     if (body) {
       doc._id = body._id;
       doc._rev = body._rev;
