@@ -1,0 +1,26 @@
+{
+  "name": "potato_chip",
+  "version": "0.0.1",
+  "description": "Syntax sugar for CouchDB setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bthesorceror/potato_chip"
+  },
+  "keywords": [
+    "couchdb",
+    "design",
+    "documents"
+  ],
+  "author": "Brandon Farmer",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/bthesorceror/potato_chip/issues"
+  },
+  "dependencies": {
+    "nano": "~4.1.1"
+  }
+}
