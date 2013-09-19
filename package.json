@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node test.js"
   },
+  bin: {
+    "potatochip": "bin/cmd.js"
+  },
   "repository": {
     "type": "git",
     "url": "http://github.com/bthesorceror/potato_chip"
