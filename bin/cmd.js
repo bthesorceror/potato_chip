@@ -14,12 +14,12 @@ chip.updateDesign(file.doc, file.name, function(err) {
   console.log("All updated now!");
 });
 
-/*
-*
-* module.exports = {
-*   name: 'test',
-*   url: 'http://local:host@localhost:5984/hashrocket_stats',
-*   doc: {
-*
-*   }
-* }
+
+
+// module.exports = {
+//   name: 'test',
+//   url: 'http://local:host@localhost:5984/hashrocket_stats',
+//   doc: {
+
+//   }
+// }
